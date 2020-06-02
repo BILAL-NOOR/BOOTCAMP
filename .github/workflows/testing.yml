@@ -30,4 +30,4 @@ jobs:
     - name: install surge
         run: npm install -g surge
     - name: deploying using surge
-              run: surge ./ stormy-hammer.surge.sh --token "b345979167c5917e6a413a44c96c6dfe"
+              run: surge ./ stormy-hammer.surge.sh --token $ {{secrets.token}}
